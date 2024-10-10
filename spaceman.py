@@ -7,7 +7,7 @@ def load_word():
     Returns: 
         string: The secret word to be used in the spaceman guessing game
     '''
-    with open('C:/Users/naths/Documents/projects/words.txt', 'r') as f:
+    with open('words.txt', 'r') as f:
         words_list = f.readlines()
         
     words_list = words_list[0].split(' ')  # Comment out this line if your file has one word per line.
